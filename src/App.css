@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+#form-new-node{
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.conteiner__new-textarea{
+  width: 40%;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#new-textarea{
+  width: 100%;
+  aspect-ratio: 3/2;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button__new-textarea{
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.button__old-textarea{
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  background-color: wheat !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.button{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px solid black;
+  background-color: rgba(0,0,0,0);
+}
+
+#conteiner__olds-textarea{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.conteiner__old-textarea{
+  margin-bottom: 50px;
+  width: 40%;
+  position: relative;
+  border: 1px solid black;
 }
